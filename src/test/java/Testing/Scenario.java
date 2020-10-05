@@ -42,7 +42,7 @@ public class Scenario {
 		// Click on Sign off
 		driver.findElement(By.linkText("SIGN-OFF")).click();
 		System.out.println("Logged Off successfully");
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		driver.quit();
 	}
 
