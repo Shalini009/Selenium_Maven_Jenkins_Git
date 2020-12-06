@@ -4,7 +4,7 @@ public class Scenario {
 
 
 	public static void main(String[] args) {
-		System.out.println(new Application().getMessage());
+		System.out.println(new Scenario().getMessage());
 	}
 
 	private final String message = "Welcome to Simplilearn !!! Jenkins WebHooks";
